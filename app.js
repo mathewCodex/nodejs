@@ -5,7 +5,7 @@ const Blog = require('./models/blogSchema');
 const { result } = require('lodash');
 //express app
 const app = express();
-const db = `mongodb+srv://mathewCodex:for12345@cluster1.avjfq.mongodb.net/Node?retryWrites=true&w=majority`;
+const db = `mongodb+srv://****:****@cluster1.avjfq.mongodb.net/Node?retryWrites=true&w=majority`;
 mongoose
   .connect(db, { useNewUrlParser: true, useUnifiedTopology: true })
   .then((result) => {
